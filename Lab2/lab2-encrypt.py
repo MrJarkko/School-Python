@@ -9,7 +9,7 @@ This program is for ENCRYPTING
 
 # Function to read input file from disk
 def read_file(file_name):
-    file = open(file_name,)
+    file = open(file_name)
     file_content = file.read()
     file.close()
     return(file_content)
